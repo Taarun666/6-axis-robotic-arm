@@ -42,7 +42,7 @@ void setAllServos(int angle) {
   servo4.write(angle); 
   servo5.write(angle);
   servo6.write(angle);
-}
+} 
 
 void synchronizedSweep() {
   Serial.println("Synchronized Sweep");
